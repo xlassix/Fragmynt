@@ -15,6 +15,13 @@
 }
 @font-face {
   font-family: "Thicccboi";
+  src: url("../Font/THICCCBOI-ExtraBold.ttf");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thicccboi";
   src: url("../Font/THICCCBOI-Medium.ttf");
   font-style: normal;
   font-weight: 600;
@@ -52,4 +59,9 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+section{
+  width: var(--max-width);
+  margin: 0 auto;
 }
