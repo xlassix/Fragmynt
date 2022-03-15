@@ -1,0 +1,15 @@
+.box{
+    background: rgb(161,239,251);
+    background: linear-gradient(152deg, rgba(161,239,251,1) 0%, rgba(155,166,255,1) 37%, rgba(244,132,146,1) 70%, rgba(244,146,101,1) 100%);
+    border-radius: 3rem;
+}
+
+.box img {
+    --left: 0;
+    --bottom: 0;
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+    left: var(--left);
+    bottom: var(--bottom);
+}
