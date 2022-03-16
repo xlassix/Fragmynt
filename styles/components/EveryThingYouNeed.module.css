@@ -68,5 +68,33 @@
 }
 
 .EveryThingYouNeed section {
-    padding: 20rem 0 10rem;
+    padding: 10rem 0 10rem;
+}
+@media (max-width:700px) {
+  .EveryThingYouNeed h2 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .EveryThingYouNeed{
+    text-align: center;
+  }
+  .first {
+    display: block;
+  }
+  .phone{
+    max-width: 18rem;
+    max-height: 20rem;
+    border-top: 2rem;
+    border-radius: 3.7rem 3.7rem 0 0;
+    box-shadow: 0 4px 34px 0 rgba(12,6,89,.09);
+}
+  .features {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3rem;
+  }
+  .EveryThingYouNeed figure{
+    flex-basis: 80%;
+    margin: 0 auto;
+  }
 }

@@ -1,7 +1,9 @@
 import styles from "../styles/components/BackedBy.module.css";
+import ScrollAnimation from "react-animate-on-scroll";
 
 function BackedBy() {
   return (
+    <ScrollAnimation animateIn="fadeInUp">
     <section className={styles.BackedBy}>
       <h2>Backed by the best</h2>
       <div>
@@ -19,6 +21,7 @@ function BackedBy() {
         <img />
       </div>
     </section>
+    </ScrollAnimation>
   );
 }
 

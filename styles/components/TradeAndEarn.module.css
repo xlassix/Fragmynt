@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10rem 0;
+    flex-flow: row wrap;
 }
 
 .trade>div:first-child{
@@ -54,4 +55,19 @@
 
 .bg_lightBlue{
     background-color: var(--bg-light2);
+}
+
+
+@media (max-width:700px) {
+
+    .trade>div:first-child{
+        flex-basis: 80%;
+        order: 2;
+        margin: 0 auto;
+    }
+    .trade>div:last-child{
+        flex-basis: 80%;
+        margin: 0 auto;
+        order: 1;
+    }
 }

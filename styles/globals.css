@@ -64,8 +64,8 @@ a {
   box-sizing: border-box;
 }
 
-section{
-  width: var(--max-width);
+section,footer{
+  max-width: var(--max-width);
   margin: 0 auto;
 }
 
@@ -78,7 +78,7 @@ section{
   left: var(--left);
   bottom: var(--bottom);
 }
-#trade-img{
+#trade-img>div,#trade-img{
   display: flex;
   align-items: center;
   justify-content: center;
