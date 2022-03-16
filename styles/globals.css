@@ -46,6 +46,16 @@
   --bg-light2 : #f9f9fb;
 }
 
+/* switch to dark mode color */
+@media (prefers-color-scheme: light) {
+  :root{
+    --color-dark2: #f9f9fb; 
+    --color-dark3: #f9f9fb;
+    --svg-color: #C8C8D5; 
+    --bg-light2 : #f9f9fb;
+  }
+}
+
 html,
 body {
   padding: 0;
