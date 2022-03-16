@@ -3,6 +3,11 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Nav from '../components/Nav'
 import MainSession from '../components/MainSession'
+import BackedBy from '../components/BackedBy'
+import EveryThingYouNeed from '../components/EveryThingYouNeed'
+import TradeAndEarn from '../components/TradeAndEarn'
+import Join from '../components/Join'
+
 
 export default function Home() {
   return (
@@ -16,6 +21,10 @@ export default function Home() {
       <Nav />
       </header>
       <MainSession />
+      <BackedBy />
+      <EveryThingYouNeed />
+      <TradeAndEarn />
+      <Join />
     </div>
   )
 }

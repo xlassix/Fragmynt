@@ -34,7 +34,7 @@ function MainSession() {
           </a>
         </div>
       </div>
-      <ColoredBox>
+      <ColoredBox id="Earn">
         <img
           alt="preview"
           src="https://uploads-ssl.webflow.com/61f191256d6b9c6bb4d698ec/6206988e8b7a865d5e09bdf5_1.1.png"

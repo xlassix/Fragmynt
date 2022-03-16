@@ -1,0 +1,26 @@
+.BackedBy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10rem auto 4rem;
+}
+.BackedBy h2 {
+  color: var(--color-dark3);
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.BackedBy > div {
+  display: flex;
+  align-items: center;
+  flex-basis: 68%;
+  justify-content: space-between;
+}
+
+.BackedBy > div > img {
+  max-height: 5rem;
+}
+.BackedBy > div > svg {
+  max-height: 3rem;
+  fill: var(--svg-color);
+}
