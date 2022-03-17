@@ -36,20 +36,33 @@
   font-display: swap;
 }
 
-:root{
+:root {
   --color-dark: black;
   --color-light: white;
   --color-dark2: #676788;
   --color-dark3: #050229;
-  --max-width: 1250px
+  --max-width: 1250px;
+  --svg-color: #c8c8d5;
+  --bg-light2: #f9f9fb;
+}
+
+/* switch to dark mode color */
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-dark2: #f9f9fb;
+    --color-dark3: #f9f9fb;
+    --svg-color: #c8c8d5;
+    --bg-light2: #f9f9fb;
+  }
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Thicccboi", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: var(--color-dark3);
+  font-family: "Thicccboi", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -61,7 +74,34 @@ a {
   box-sizing: border-box;
 }
 
-section{
-  width: var(--max-width);
+section,
+footer {
+  max-width: var(--max-width);
   margin: 0 auto;
+}
+
+#Earn img {
+  --left: 0;
+  --bottom: 0;
+  width: 100%;
+  object-fit: contain;
+  position: relative;
+  left: var(--left);
+  bottom: var(--bottom);
+}
+#trade-img > div,
+#trade-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#trade-img img {
+  margin: 3rem auto;
+  width: 80%;
+  object-fit: scale-down;
+  max-width: 50%;
+  position: relative;
+  box-shadow: 0 12px 74px 0 rgba(5, 2, 41, 0.16);
+  border-radius: 3rem;
 }

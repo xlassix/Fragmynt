@@ -1,0 +1,77 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5rem;
+}
+
+.footer > div:first-child {
+  flex-basis: 35%;
+}
+.footer > div:last-child {
+  flex-basis: 10%;
+}
+
+.footer > div:first-child img {
+  max-width: 10rem;
+  width: 100%;
+  object-fit: contain;
+}
+
+.footer > div:first-child p {
+  color: var(--color-dark2);
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.footer > div:first-child h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer li {
+  margin: 1rem 0;
+}
+.footer li a {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.footer li p {
+  color: var(--color-dark2);
+  margin: 0;
+  padding: 0;
+  line-height: 1rem;
+  transition: 400ms;
+  position: relative;
+}
+.footer li:hover p {
+  transform: translateX(-10px);
+}
+.footer li a img {
+  border-radius: 3rem;
+  position: relative;
+  transition: 400ms;
+}
+
+.footer li:hover a img {
+  transform: scale(1.1);
+}
+
+.author{
+    width: var(--max-width);
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    color: var(--color-dark2);
+    border-top: 0.5px solid currentColor;
+    padding: 2rem ;
+}

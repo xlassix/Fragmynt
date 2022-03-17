@@ -1,0 +1,37 @@
+.BackedBy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin: 10rem auto 4rem;
+}
+.BackedBy h2 {
+  color: var(--color-dark3);
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.BackedBy > div {
+  display: flex;
+  align-items: center;
+  flex-basis: 68%;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.BackedBy > div > img {
+  max-height: 5rem;
+}
+.BackedBy > div > svg {
+  max-height: 3rem;
+  fill: var(--svg-color);
+}
+
+@media (max-width:700px) {
+  .BackedBy {
+    justify-content: center;
+  }
+  .BackedBy > div > img {
+    flex-basis: 40%;
+  }
+}
