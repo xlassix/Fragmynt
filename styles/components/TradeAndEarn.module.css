@@ -58,7 +58,7 @@
 }
 
 
-@media (max-width:700px) {
+@media (max-width:800px) {
 
     .trade>div:first-child{
         flex-basis: 80%;

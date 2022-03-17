@@ -6,7 +6,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 function MainSession() {
   return (
     <section id="intro" className={styles.intro}>
-    <ScrollAnimation animateIn="fadeInUp">
+      <ScrollAnimation animateIn="fadeInUp">
         <div>
           <h2>Earn with markets you love.</h2>
           <p>
@@ -44,16 +44,18 @@ function MainSession() {
             </div>
           </ScrollAnimation>
         </div>
-    </ScrollAnimation>
-        <ColoredBox id="Earn">
+      </ScrollAnimation>
+      <ColoredBox id="Earn">
         <ScrollAnimation animateIn="zoomOut">
           <img
             alt="preview"
-            src="https://uploads-ssl.webflow.com/61f191256d6b9c6bb4d698ec/6206988e8b7a865d5e09bdf5_1.1.png"
+            src={
+              "https://uploads-ssl.webflow.com/61f191256d6b9c6bb4d698ec/6206988e8b7a865d5e09bdf5_1.1.png"
+            }
           />
         </ScrollAnimation>
-        </ColoredBox>
-      </section>
+      </ColoredBox>
+    </section>
   );
 }
 export default MainSession;

@@ -31,7 +31,7 @@ function Join() {
               <figcaption>
                 <h3>NFT Awards</h3>
                 <p>
-                  Earn awards as new-age NFTs — auction them, give 'em away or
+                  Earn awards as new-age NFTs — auction them, give &apos;em away or
                   use them as your profile photo..
                 </p>
               </figcaption>

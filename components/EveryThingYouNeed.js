@@ -4,7 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 function EveryThingYouNeed() {
   return (
     <div className={style.EveryThingYouNeed}>
-      <ScrollAnimation animateIn="fadeInUp" duration="0.6">
+      <ScrollAnimation animateIn="fadeInUp" duration={0.6}>
         <section>
           <h2>Everything you need, right at your fingertips.</h2>
           <div className={style.features}>
@@ -12,6 +12,8 @@ function EveryThingYouNeed() {
               <div>
                 <ScrollAnimation animateIn="fadeInUp">
                   <img
+                    
+                    
                     className={style.icon}
                     src="https://uploads-ssl.webflow.com/61f191256d6b9c6bb4d698ec/61f191256d6b9c1ebdd69931_icon-1-home-features-app-x-template.svg"
                     alt="data"
@@ -33,6 +35,8 @@ function EveryThingYouNeed() {
             <figure>
               <ScrollAnimation animateIn="fadeInUp">
                 <img
+                  
+                  
                   className={style.icon}
                   src="https://uploads-ssl.webflow.com/61f191256d6b9c6bb4d698ec/61f191256d6b9c7621d69933_icon-2-home-features-app-x-template.svg"
                   alt="data"
@@ -47,6 +51,8 @@ function EveryThingYouNeed() {
             <figure>
               <ScrollAnimation animateIn="fadeInUp">
                 <img
+                  
+                  
                   className={style.icon}
                   src="https://uploads-ssl.webflow.com/61f191256d6b9c6bb4d698ec/61f191256d6b9c0b15d69932_icon-3-home-features-app-x-template.svg"
                   alt="data"
@@ -61,6 +67,8 @@ function EveryThingYouNeed() {
             <figure>
               <ScrollAnimation animateIn="fadeInUp">
                 <img
+                  
+                  
                   className={style.icon}
                   src="https://uploads-ssl.webflow.com/61f191256d6b9c6bb4d698ec/61f191256d6b9c8c28d69935_icon-4-home-features-app-x-template.svg"
                   alt="data"
@@ -75,6 +83,8 @@ function EveryThingYouNeed() {
             <figure>
               <ScrollAnimation animateIn="fadeInUp">
                 <img
+                  
+                  
                   className={style.icon}
                   src="https://uploads-ssl.webflow.com/61f191256d6b9c6bb4d698ec/61f191256d6b9c4381d69934_icon-5-home-features-app-x-template.svg"
                   alt="data"
