@@ -19,7 +19,7 @@ function Community() {
           <h2>Used & trusted by a community of millions.</h2>
           <p>
             Become a part of the Fragmynt community & join over thousands of
-            traders & millions more on-chain who're redefining markets.
+            traders & millions more on-chain who&apos;re redefining markets.
           </p>
           <div className={style.cards}>
             <figure>

@@ -4,12 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.1.0",
+    "akamai": "^0.10.1",
+    "cloudinary": "^1.28.1",
+    "imgix": "^0.0.2",
+    "next": "12.0.7",
+    "next-compose-plugins": "^2.2.1",
+    "next-images": "^1.8.4",
     "react": "^17.0.2",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^17.0.2"

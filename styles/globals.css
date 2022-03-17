@@ -46,7 +46,7 @@
   --bg-light2: #f9f9fb;
 }
 
-/* switch to dark mode color */
+/* switch to dark mode color
 @media (prefers-color-scheme: light) {
   :root {
     --color-dark2: #f9f9fb;
@@ -54,7 +54,7 @@
     --svg-color: #c8c8d5;
     --bg-light2: #f9f9fb;
   }
-}
+} */
 
 html,
 body {
@@ -103,5 +103,5 @@ footer {
   max-width: 50%;
   position: relative;
   box-shadow: 0 12px 74px 0 rgba(5, 2, 41, 0.16);
-  border-radius: 3rem;
+  border-radius: 1.3rem;
 }

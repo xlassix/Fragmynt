@@ -27,11 +27,16 @@
   fill: var(--svg-color);
 }
 
-@media (max-width:700px) {
+@media (max-width:800px) {
   .BackedBy {
     justify-content: center;
   }
-  .BackedBy > div > img {
+  .BackedBy > div > img,.BackedBy > div > svg {
     flex-basis: 40%;
+    margin: 1rem 0;
+  }
+  .BackedBy > div {
+    flex-basis: 90%;
+    margin: 0 auto;
   }
 }

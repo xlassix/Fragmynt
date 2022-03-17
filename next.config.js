@@ -1,8 +1,14 @@
-/** @type {import('next').NextConfig} */
+const withPlugins = require('next-compose-plugins')
+const withImages = require('next-images')
+
 const nextConfig = {
   reactStrictMode: true,
-  experimental: {
-    esmExternals: false,
-  }
-}
-module.exports = nextConfig
+  trailingSlash: true,
+  images: {
+    loader: 'cloudinary',
+    domains: ["uploads-ssl.webflow.com"],
+    path: '',
+  },
+};
+
+module.exports = withPlugins([[withImages]], nextConfig)
